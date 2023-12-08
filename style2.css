@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game-container {
+    background: url("./assets/bg.png") no-repeat;
+    background-size: cover;
+    background-color: #ffc434;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+.score {
+    text-align: center;
+    margin-top: 20px; 
+    font-size: 24px; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: -60px;
+  
+}
+
+.you {
+    font-size: 2em;
+    text-align: center;
+    border: 1px solid  #ffc434 ;
+    width:300px;
+    height: 300px;
+}
+
+.comp {
+    font-size: 2em;
+    text-align: center;
+    border: 1px solid  #ffc434 ;
+    width:300px;
+    height: 300px;
+}
+
+#paper {
+  width:60px;
+  height: 60px;
+  position: relative;
+  top: 200px;
+  right: 60px;
+}
+
+
+#rock {
+    width:60px;
+  height: 60px;
+  position: relative;
+  top: 200px;
+  right: 40px;
+}
+
+
+#scissors {
+    width:60px;
+  height: 60px;
+  position: relative;
+  top: 200px;
+  right: 20px;
+}
+
+
+#versus {
+    width: 100px;
+    height: auto;
+    margin-top: 40px;
+}
+#text{
+    position: relative;
+    left: 100px;
+    top:-20px;
+}
+.scores{
+    font-size: 4em;
+    padding: 20px;
+    margin-top: 90px;
+}
+#selectedLogo{
+    display: none;
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+}
+#computerLogo{
+    display: none;
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0px;
+    bottom: 10px;
+}
+.gameOverMessage {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.playAgainBtn {
+    display: none;
+    background-color: #ffc434;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: auto;
+    border-radius: 5px;
+}
