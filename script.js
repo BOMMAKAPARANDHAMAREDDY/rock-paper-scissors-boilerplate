@@ -1,4 +1,4 @@
-const playElements = document.querySelector("#button-container");
+const playElements = document.querySelector("#play-btn");
 
 console.log(playElements);
 
